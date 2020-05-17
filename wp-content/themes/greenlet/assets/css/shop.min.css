@@ -1,8 +1,0 @@
-a.cart-button {display: none;padding: 15px;}
-a.cart-button:last-child {padding-right: 0;}
-a.cart-button .cart-contents {display: none;}
-a.cart-button .cart-contents:after {content: "";position: absolute;bottom: 100%;right: 0;border-bottom: 5px solid #fff;border-left: 5px solid transparent;border-right: 5px solid transparent;}
-a.cart-button:hover .cart-contents {display: block;position: absolute;top: 100%;right: 0;background: #fff;color: #383838;padding: 10px;box-shadow: 0 0 3px rgba(0,0,0,.5);}
-.woocommerce .button {height: inherit;text-transform: inherit;letter-spacing: inherit;}
-.woocommerce .col-1, .woocommerce .col-2 {max-width: inherit;}
-@media (min-width:801px) {a.cart-button {display: flex;align-items: center;position: relative;}}
