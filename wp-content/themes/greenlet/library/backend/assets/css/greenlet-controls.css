@@ -1,0 +1,76 @@
+.gl-row {display: flex;}
+.gl-row .col-1 {width: 8.33333333333%;}
+.gl-row .col-2 {width: 16.6666666667%;}
+.gl-row .col-3 {width: 25%;}
+.gl-row .col-4 {width: 33.3333333333%;}
+.gl-row .col-5 {width: 41.6666666667%;}
+.gl-row .col-6 {width: 50%;}
+.gl-row .col-7 {width: 58.3333333333%;}
+.gl-row .col-8 {width: 66.6666666667%;}
+.gl-row .col-9 {width: 75%;}
+.gl-row .col-10 {width: 83.3333333333%;}
+.gl-row .col-11 {width: 91.6666666667%;}
+.gl-row .col-12 {width: 100%;}
+#customize-theme-controls .control-section.customize-pane-child.open {height: 100%;}
+#accordion-section-framework {margin-bottom: 15px;}
+#accordion-section-header_layout.control-section {border-top: 1px solid #ddd;}
+.gl-radio-images {background: #fff;font-size: 0;padding: 2px;margin-bottom: 0;line-height: 0;}
+.gl-radio-image {display: inline-block;max-width: 25%;padding: 5px;box-sizing: border-box;vertical-align: top;}
+.gl-radio-image label {display: block;position: relative;}
+.gl-radio-image input[type="radio"] {position: absolute;width: 0;height: 0;opacity: 0;}
+.gl-radio-image img {display: block;}
+.gl-radio-image input[type="radio"]:checked + img {outline: 3px solid #7cb342;}
+.customize-control-template .gl-radio-images {background: none;padding: 0;}
+.customize-control-template .gl-radio-image {padding: 10px 4px;}
+.customize-control-template .gl-radio-image input[type="radio"]:checked + img {outline: 3px solid #ffa726;}
+.gl-radio-image label .preset-name {display: block;line-height: 1.2;font-size: 11px;padding-top: 8px;text-align: center;}
+.customize-control-preset .gl-radio-images {background: none;padding: 0;}
+.customize-control-preset .gl-radio-image {max-width: 33.3%;padding: 12px 8px;}
+.more-wrap input[type="checkbox"] {background: none;border: none;box-shadow: none;width: 100%;margin: 0 0 10px;padding: 0 5px !important;text-align: right;font-size: 13px;}
+.more-wrap input[type="checkbox"]:before {content: "More options";color: #0277bd;display: block;height: 1rem;line-height: 1rem;padding: 0;width: 100%;margin: 0;}
+.more-wrap input[type="checkbox"]:checked:before {content: "Less options";}
+.more-content {padding: 2px 1px;max-height: 0;overflow: hidden;transition: max-height .3s ease-out;}
+.more-wrap input[type="checkbox"]:checked + .more-content {max-height: 200px;}
+.customize-control-template .template-name {position: absolute;width: 100%;height: 10px;line-height: 1;font-size: 10px;text-align: center;bottom: 120%;visibility: hidden;}
+.customize-control-template .gl-radio-image:hover .template-name {visibility: visible;}
+.gl-template-matcher-sequence {align-items: center;padding: 10px 0;}
+.gl-template-matcher {padding-top: 0;border: 1px solid #ccc;background: #fff;position: relative;}
+.gl-template-matcher:not(:last-child) {border-right: none;}
+.gl-template-matcher select {height: 60px;margin: 0;border: none;font-size: 12px;}
+.gl-template-matcher select:focus {box-shadow: none;}
+.gl-template-matcher-column {position: absolute;bottom: 0;right: 0;font-size: 10px;padding: 0 4px;color: #aaa;}
+.greenlet-divider {border-top: 2px solid #dadada;border-bottom: 2px solid #f7f7f7;margin: 10px -12px;}
+.gl-color button.wp-color-result .color-alpha, .gl-border button.wp-color-result .color-alpha {height: 28px !important;}
+.gl-color input.color-picker.wp-color-picker {max-width: 150px;letter-spacing: -.6px;}
+.gl-color .button.button-small.wp-picker-clear {min-height: 30px;}
+.customize-control-range, .customize-control-length {position: relative;}
+.customize-control-range input, .customize-control input[type="range"] {width: 100%;background: #7cb342;-webkit-appearance: none;height: 3px;border-radius: 3px;}
+.customize-control-range input:focus, .customize-control input[type="range"]:focus {outline: none;}
+.customize-control-range .dashicons, .gl-length .reset {position: absolute;right: 0;bottom: 12px;font-size: 12px;color: #999;line-height: 20px;cursor: pointer;}
+.gl-length .reset {bottom: 35px;}
+.customize-control-range .dashicons:hover, .gl-length .reset:hover {background: #fff;}
+.customize-control-checkbox .customize-inside-control-row {margin-left: 0;}
+.customize-control-checkbox input {float: right;width: 38px;height: 20px;border-radius: 20px;border: 1px solid rgba(0,0,0,.2);background: #dadbdd;margin: 0;transition: all .2s;position: relative;}
+.customize-control-checkbox input:checked {background: #7cb342;border: 1px solid rgba(0,0,0,.1);}
+.customize-control-checkbox input[type=checkbox]:before {content: "";position: absolute;display: block;margin: 0;width: 6px;height: 6px;top: 50%;right: 6px;border-radius: 50px;border: 1px solid #b4b4b4;transform: translateY(-50%);}
+.customize-control-checkbox input[type=checkbox]:checked:before {content: "";background: rgba(255,255,255,.5);width: 1px;height: 8px;display: block;left: 10px;border: none;}
+.customize-control-checkbox input[type=checkbox]:after {content: "";position: absolute;background: #fff;width: 16px;height: 16px;display: block;border-radius: 10px;margin: 1px;box-shadow: 0 0 2px #666;transition: all .2s;}
+.customize-control-checkbox input[type=checkbox]:checked:after {transform: translateX(18px);}
+.customize-control-checkbox input[type=checkbox]:focus {box-shadow: none;border-color: rgba(0,0,0,.2);}
+.gl-border {display: flex;align-items: flex-start;flex-wrap: wrap;justify-content: flex-end;}
+.gl-border .width-wrap {flex-grow: 1;height: 30px;line-height: 25px;}
+.customize-control-border input[type="range"] {width: 95%;}
+.customize-control-border select {width: 111px;margin-right: 5px;margin-bottom: 10px;}
+.gl-font .size-wrap {margin-top: 10px;}
+.gl-row .range-wrap {padding-right: 5px;line-height: 1.8;}
+.gl-font .font-unit {background-position: right 2px top 55%;padding: 0 18px 0 5px;}
+.customize-control-font {margin-bottom: 25px;}
+.customize-control {max-height: 500px;transition: .5s all;opacity: 1;}
+.customize-control.collapse {max-height: 0;overflow: hidden;margin: 0;padding: 0;opacity: 0;}
+.toggler {text-align: center;position: relative;}
+.toggler span {background: #fff;border-radius: 30px;color: #999;border: 1px solid #ccc;cursor: pointer;position: absolute;top: 0;left: 50%;transform: translateX(-50%);transition: .5s all;font-size: 14px;line-height: 1.4;}
+.toggled span {transform: translateX(-50%) rotate(180deg);}
+.aspect {position: absolute;left: 40%;top: 115%;color: #999;font-size: 18px;cursor: pointer;display: inline-block;z-index: 10;}
+.lock-indicator {position: absolute;left: calc(40% + 10px);height: 50px;border-right: 1px dashed #ccc;top: 45px;transition: .2s all;transform: scale(1);}
+.dashicons-unlock ~ .lock-indicator {transform: scale(0);}
+.aspect:before {background: #eee;}
