@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es-CL"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>¿Porque usar Docker? ¿Dockerfile? – El Blog del malba</title><link rel="dns-prefetch" href="//www.google.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="../../wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="fw-ext-builder-frontend-grid-css" href="../../wp-content/plugins/unyson/framework/extensions/builder/static/css/frontend-grid.css" type="text/css" media="all"><link rel="stylesheet" id="fw-ext-forms-default-styles-css" href="../../wp-content/plugins/unyson/framework/extensions/forms/static/css/frontend.css" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-css" href="../../wp-content/plugins/unyson/framework/static/libs/font-awesome/css/font-awesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="bootstrap-css" href="../../wp-content/themes/aveo/css/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="normalize-css" href="../../wp-content/themes/aveo/css/normalize.css" type="text/css" media="all"><link rel="stylesheet" id="owl-carousel-css" href="../../wp-content/themes/aveo/css/owl.carousel.css" type="text/css" media="all"><link rel="stylesheet" id="transition-animations-css" href="../../wp-content/themes/aveo/css/transition-animations.css" type="text/css" media="all"><link rel="stylesheet" id="animate-css" href="../../wp-content/themes/aveo/css/animate.css" type="text/css" media="all"><link rel="stylesheet" id="magnific-popup-css" href="../../wp-content/themes/aveo/css/magnific-popup.css" type="text/css" media="all"><link rel="stylesheet" id="material-design-iconic-font-css" href="../../wp-content/themes/aveo/css/material-design-iconic-font/css/material-design-iconic-font.min.css" type="text/css" media="all"><link rel="stylesheet" id="dashicons-css" href="../../wp-includes/css/dashicons.min.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-linecons-css" href="../../wp-content/plugins/unyson/framework/static/libs/linecons/css/linecons.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-font-awesome-css" href="../../wp-content/plugins/unyson/framework/static/libs/font-awesome/css/font-awesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-entypo-css" href="../../wp-content/plugins/unyson/framework/static/libs/entypo/css/entypo.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-linearicons-css" href="../../wp-content/plugins/unyson/framework/static/libs/lnr/css/lnr.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-typicons-css" href="../../wp-content/plugins/unyson/framework/static/libs/typcn/css/typcn.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-unycon-css" href="../../wp-content/plugins/unyson/framework/static/libs/unycon/unycon.css" type="text/css" media="all"><link rel="stylesheet" id="fw-option-type-icon-v2-pack-my_pack-css" href="../../wp-content/themes/aveo/css/material-design-iconic-font/css/material-design-iconic-font.css" type="text/css" media="all"><link rel="stylesheet" id="aveo-main-styles-css" href="../../wp-content/themes/aveo/css/main.css" type="text/css" media="all"><link rel="stylesheet" id="aveo-customization-css" href="../../wp-content/themes/aveo/css/customization.css.php" type="text/css" media="all"><link rel="stylesheet" id="fw-shortcode-section-background-video-css" href="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/css/background.css" type="text/css" media="all"><link rel="stylesheet" id="fw-shortcode-section-css" href="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/css/styles.css" type="text/css" media="all"><link rel="stylesheet" id="aveo-google-fonts-css" href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic%7CMontserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" type="text/css" media="all"><script type="text/javascript" src="../../wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="../../wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/framework-customizations/extensions/shortcodes/shortcodes/column/static/js/scripts.js"></script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("http://OFFLINEZIP.wpsho/wp-content/uploads/2017/09/main_bg.png"); background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+</style></head><body class="post-template-default single single-post postid-109 single-format-standard custom-background masthead-fixed full-width singular">
+
+
+<div class="preloader">
+  <div class="preloader-animation">
+    <div class="preloader-spinner">
+    </div>
+  </div>
+</div>
+
+
+<div id="page" class="page-layout">
+
+    <header id="site_header" class="header mobile-menu-hide"><div class="header-content clearfix">
+            
+                        <div class="site-title-block mobile-hidden">
+                <a href="../../index.html">
+                                            <h1 class="site-title">El<span> Malba</span></h1>
+                                    </a>
+            </div>
+            
+
+            
+            <div class="site-nav">
+                <ul id="menu-classic-menu" class="aveo-classic-menu site-main-menu"><li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-10"><a href="../../index.html">Inicio</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-123"><a rel="resume" href="../../#resume">CV</a></li>
+<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-124"><a rel="services" href="../../#services">Servicios</a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-125"><a rel="portfolio" href="../../#portfolio">Portafolio</a></li>
+<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-126"><a rel="blog" href="../../#blog">Blog</a></li>
+<li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-128"><a rel="contact" href="../../#contact">Contacto</a></li>
+</ul><div class="header-search">
+                            <form role="search" id="search-form" method="get" action="http://OFFLINEZIP.wpsho/">
+                                <input type="text" id="search" class="form-control" name="s" value="" placeholder="Search" required="required"><button type="submit" id="search-submit" class="search-submit" title="Search">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                                                        </div>
+            
+        </div>
+    </header><div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+            
+            <div class="mobile-site-title">
+                                                            El Malba                                                </div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+<div id="main" class="site-main">
+		<div id="main-content" class="single-page-content content-page-with-sidebar">
+			<div id="primary" class="content-area">
+			<div id="content" class="page-content site-content single-post" role="main">
+				
+<article id="post-109" class="post-109 post type-post status-publish format-standard has-post-thumbnail hentry category-frameworks tag-css3 tag-design tag-menu"><div class="post-thumbnail">
+				<img width="1920" height="900" src="../../wp-content/uploads/2017/09/blog_post_2_full.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="../../wp-content/uploads/2017/09/blog_post_2_full.jpg 1920w,../../wp-content/uploads/2017/09/blog_post_2_full-300x141.jpg 300w,../../wp-content/uploads/2017/09/blog_post_2_full-768x360.jpg 768w,../../wp-content/uploads/2017/09/blog_post_2_full-1024x480.jpg 1024w,../../wp-content/uploads/2017/09/blog_post_2_full-1536x720.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px"></div>
+
+		
+	<div class="post-content">
+		<header class="entry-header"><h2 class="entry-title">¿Porque usar Docker? ¿Dockerfile?</h2>
+			<div class="entry-meta">
+				<span class="byline"><span class="entry-date"><a href="../../frameworks/navigation-for-mega-sites/index.html" rel="bookmark"><i class="fa fa-fw fa-clock-o"></i> <time class="entry-date" datetime="2017-03-22T11:25:07-03:00">Marzo 22, 2017</time></a> <span class="divider">|</span> </span><span class="author vcard"><a class="url fn n" href="../../author/malba/index.html" rel="author"><i class="fa fa-fw fa-user"></i> malba</a></span> <span class="divider">|</span> <span><i class="fa fa-fw fa-folder"></i> <a href="../../category/frameworks/index.html" rel="category tag">Frameworks</a></span> </span>				
+							</div>
+		</header><div class="entry-content">
+			<div class="fw-page-builder-content"><section class="fw-main-row "><div class="fw-container">
+		<div class="row">
+	
+
+<div class=" col-xs-12 col-sm-12 ">
+    <div id="col_inner_id-5ecddcab5cb83" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+		<p>Suspendisse elementum semper elit sit amet feugiat. Phasellus dictum metus et eros porta fermentum. Nunc vel elit at quam molestie euismod et sit amet sem. Phasellus id iaculis tellus, sit amet aliquet ex. Vestibulum ipsum magna, convallis nec ornare sit amet, tincidunt quis elit. Aliquam efficitur, est a gravida viverra, ipsum mauris pharetra neque, sit amet ultrices dolor leo eu tortor. Praesent bibendum sem ut luctus euismod. Donec vitae lobortis sem. Etiam cursus aliquam sodales. Etiam risus dui, aliquet id convallis at, volutpat ut ex. Mauris vitae tortor fringilla, egestas turpis at, ornare ante. Mauris et quam elementum, posuere tellus a, ultrices dolor. Etiam aliquet dictum lobortis. Suspendisse sagittis, sapien quis eleifend scelerisque, velit nisl volutpat ante, ut molestie lacus massa et nulla.</p>	</div>
+</div>
+</div>
+
+<div class="row">
+	
+
+<div class=" col-xs-12 col-sm-12 ">
+    <div id="col_inner_id-5ecddcab5cc5f" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+		<blockquote class="quote fw-quote-left fw-quote-md ">
+    Fusce efficitur velit ut dui euismod, vel ultrices metus consequat. Aenean vehicula ipsum magna, vehicula egestas nisl ultrices in. Aliquam id suscipit felis, nec suscipit turpis.			<footer class="quote-author"><span>
+									John Doe							</span>
+		</footer></blockquote>	</div>
+</div>
+</div>
+
+<div class="row">
+	
+
+<div class=" col-xs-12 col-sm-12 ">
+    <div id="col_inner_id-5ecddcab5cd19" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+		<p>Donec scelerisque vehicula tempus. Aenean ac scelerisque sem, ac tincidunt quam. Duis mattis ipsum non arcu luctus sagittis. Proin laoreet lectus mi. Nulla facilisi. Sed sit amet maximus mi. Sed iaculis id orci in congue. Mauris a interdum est, non condimentum libero. Curabitur ac aliquet nunc. Aenean eleifend dui ipsum. Pellentesque quam odio, ultricies ut nisi et, placerat tincidunt augue.</p><p>Phasellus viverra sapien non luctus venenatis. Nulla vestibulum metus orci, et mollis neque molestie ac. Praesent vitae imperdiet tortor, non finibus ante. Suspendisse potenti. Donec sagittis velit nisi, quis pretium felis elementum id. Etiam feugiat arcu at urna faucibus, nec sodales ligula dapibus. Nam ullamcorper augue ac semper luctus. Nunc vel enim at velit tristique molestie vel et tellus. Sed mauris tortor, dictum vitae odio sit amet, malesuada pharetra massa. Nullam justo lectus, blandit sit amet fermentum vitae, laoreet nec purus. Cras non magna nunc. Integer laoreet metus in tortor sagittis scelerisque. Proin sem mauris, blandit eget felis et, mattis auctor dui. Proin convallis congue nisi, sed rutrum eros viverra non.</p>	</div>
+</div>
+</div>
+
+	</div>
+</section></div>
+		</div>
+
+		<div class="entry-meta entry-tags-share">
+			<span class="tags"><a href="../../tag/css3/index.html" rel="tag">css3</a><a href="../../tag/design/index.html" rel="tag">design</a><a href="../../tag/menu/index.html" rel="tag">menu</a></span>
+			
+							<div class="entry-share btn-group share-buttons">
+					        <a href="https://www.facebook.com/sharer/sharer.php?u=http://OFFLINEZIP.wpsho/frameworks/navigation-for-mega-sites/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/share?url=http://OFFLINEZIP.wpsho/frameworks/navigation-for-mega-sites/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://plus.google.com/share?url=http://OFFLINEZIP.wpsho/frameworks/navigation-for-mega-sites/" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on Google+">
+            <i class="fa fa-google-plus"></i>
+        </a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://OFFLINEZIP.wpsho/frameworks/navigation-for-mega-sites/" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    				</div>
+						
+		</div>
+			</div>
+</article><nav class="navigation post-navigation clearfix"><div class="nav-links">
+					<a href="../../frameworks/go-go-y-porque-tanto-amor-a-go/index.html" rel="next"><span class="meta-nav">Next Post</span></a>				</div>
+				
+			</nav><div id="comments" class="comments-area">
+
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/frameworks/navigation-for-mega-sites/#respond" style="display:none;">Cancelar respuesta</a></small></h3><form action="http://OFFLINEZIP.wpsho/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><div class="form-group form-group-with-icon comment-form-message"><i class="form-control-icon fa fa-comment"></i><label>Your Comment</label><textarea id="comment" class="form-control" name="comment" cols="45" rows="8" aria-required="true"></textarea><div class="form-control-border"></div></div><div class="form-group form-group-with-icon comment-form-author"><i class="form-control-icon fa fa-user"></i><label>Your Name</label><input id="author" class="form-control" name="author" type="text" value="" size="30" aria-required="true"><div class="form-control-border"></div></div>
+<div class="form-group form-group-with-icon comment-form-email"><i class="form-control-icon fa fa-envelope"></i><label>Your Email</label><input id="email" class="form-control" name="email" type="text" value="" size="30" aria-required="true"><div class="form-control-border"></div></div>
+
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que comente.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publicar comentario"><input type="hidden" name="comment_post_ID" value="109" id="comment_post_ID"><input type="hidden" name="comment_parent" id="comment_parent" value="0"></p></form>	</div>
+	
+</div>
+			</div>
+
+			
+	<div id="blog-sidebar" class="blog-sidebar">
+		<div class="blog-sidebar-content clearfix">
+			<div class="sidebar-item"><form role="search" method="get" class="search-form" action="http://OFFLINEZIP.wpsho/">
+				<label>
+					<span class="screen-reader-text">Buscar por:</span>
+					<input type="search" class="search-field" placeholder="Buscar …" value="" name="s"></label>
+				<input type="submit" class="search-submit" value="Buscar"></form></div>		<div class="sidebar-item">		<div class="sidebar-title"><h4>Entradas recientes</h4></div>		<ul><li>
+					<a href="../../frameworks/go-go-y-porque-tanto-amor-a-go/index.html">Go Go y Porque tanto amor a GO</a>
+									</li>
+											<li>
+					<a href="../../frameworks/navigation-for-mega-sites/index.html" aria-current="page">¿Porque usar Docker? ¿Dockerfile?</a>
+									</li>
+					</ul></div><div class="sidebar-item"><div class="sidebar-title"><h4>Comentarios recientes</h4></div><ul id="recentcomments"></ul></div><div class="sidebar-item"><div class="sidebar-title"><h4>Archivos</h4></div>		<ul><li><a href="../../2020/05/index.html">Mayo 2020</a></li>
+	<li><a href="../../2017/03/index.html">Marzo 2017</a></li>
+		</ul></div><div class="sidebar-item"><div class="sidebar-title"><h4>Categorías</h4></div>		<ul><li class="cat-item cat-item-18"><a href="../../category/frameworks/index.html">Frameworks</a>
+</li>
+		</ul></div><div class="sidebar-item"><div class="sidebar-title"><h4>Meta</h4></div>			<ul><li><a href="../../wp-login.php">Iniciar Sesión</a></li>
+			<li><a href="../../feed/index.html">Alimentación de entradas</a></li>
+			<li><a href="../../comments/feed/index.html">Feed de comentarios</a></li>
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul></div>		</div>
+	</div>
+		</div>
+	</div>
+</div>
+    </div>
+        <footer><div class="copyrights">© 2020 powered by mmae.cl</div>
+    </footer><script type="text/javascript" src="../../wp-content/themes/aveo/js/modernizr.custom.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/owl.carousel.min.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/validator.js"></script><script type="text/javascript" src="../../wp-includes/js/imagesloaded.min.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/jquery.shuffle.min.js"></script><script type="text/javascript" src="../../wp-includes/js/masonry.min.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/jquery.hoverdir.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/jquery.magnific-popup.min.js"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/pages-switcher.js"></script><script type="text/javascript" src="https://www.google.com/recaptcha/api.js?ver=2.0"></script><script type="text/javascript" src="../../wp-content/themes/aveo/js/main.js"></script><script type="text/javascript">
+var ajaxurl = "http://OFFLINEZIP.wpsho/wp-admin/admin-ajax.php";
+</script><script type="text/javascript" src="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/core.js"></script><script type="text/javascript" src="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/transition.js"></script><script type="text/javascript" src="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/background.js"></script><script type="text/javascript" src="../../wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/background.init.js"></script></body></html>
