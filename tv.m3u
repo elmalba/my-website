@@ -1,3 +1,4 @@
+#EXTM3U url-tvg="https://el.malba.cl/xml.epg"
 #EXTINF:-1 tvg-id="284041.ENT", tvg-logo="https://images.orp2.ott.kaltura.com/Service.svc/GetImage/p/313/entry_id/2f19f68c8f634b79a386f472e97767e5_1/version/14/width/2048/height/1152/quality/100",Discovery Kids Hd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtdXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1mZGJmYzNiNGYzNTI0MjNlYTYzMDI5ZjNjOWEzMTI2ZSZjb250ZXh0VHlwZT1ub25lJmlkPTEwMDEzMTE4IiwiYWNjb3VudF9pZCI6MzEzLCJjb250ZW50X2lkIjoiMjMxNCIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImZkYmZjM2I0ZjM1MjQyM2VhNjMwMjlmM2M5YTMxMjZlIiwidWRpZCI6IjMxODQ1NDAwNjU2MSIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MzEzfQ%3d%3d&signature=xc3gY8y8JEq9XvNhPlddD5BAsEM%3d
