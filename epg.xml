@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE tv SYSTEM "xmltv.dtd">
+		<tv generator-info-name="Entel Vale Pico">
+<channel id="284041">
+  <display-name lang="es">Discovery Kids Hd</display-name>
+</channel>
+<channel id="284040">
+  <display-name lang="es">Disney Junior Hd</display-name>
+</channel>
+<channel id="283979">
+  <display-name lang="es">Baby Tv</display-name>
+</channel>
+<channel id="284056">
+  <display-name lang="es">Cartoon Network Hd</display-name>
+</channel>
+<channel id="534005">
+  <display-name lang="es">Nat Geo Kids Hd</display-name>
+</channel>
+<channel id="284049">
+  <display-name lang="es">Disney Channel Hd</display-name>
+</channel>
+<channel id="284002">
+  <display-name lang="es">Disney Xd</display-name>
+</channel>
+<channel id="284047">
+  <display-name lang="es">Boomerang</display-name>
+</channel>
+<channel id="283983">
+  <display-name lang="es">Tooncast </display-name>
+</channel>
+<channel id="427711">
+  <display-name lang="es">Tv Educa Chile</display-name>
+</channel>
+<channel id="284037">
+  <display-name lang="es">Discovery Channel Hd</display-name>
+</channel>
+<channel id="283961">
+  <display-name lang="es">Animal Planet Hd</display-name>
+</channel>
+<channel id="284010">
+  <display-name lang="es">Natgeo Wild Hd</display-name>
+</channel>
+<channel id="284005">
+  <display-name lang="es">Natgeo Hd</display-name>
+</channel>
+<channel id="284029">
+  <display-name lang="es">H2 Hd</display-name>
+</channel>
+<channel id="284013">
+  <display-name lang="es">History Channel Hd</display-name>
+</channel>
+<channel id="284059">
+  <display-name lang="es">Discovery Science</display-name>
+</channel>
+<channel id="283991">
+  <display-name lang="es">Discovery Theater Hd</display-name>
+</channel>
+<channel id="283985">
+  <display-name lang="es">Film&Arts Hd</display-name>
+</channel>
+<channel id="283997">
+  <display-name lang="es">Ewtn</display-name>
+</channel>
+<channel id="1655395">
+  <display-name lang="es">Tbn Enlace Latin America</display-name>
+</channel>
+<channel id="283999">
+  <display-name lang="es">Rt Hd</display-name>
+</channel>
+<channel id="283995">
+  <display-name lang="es">Cnn Español</display-name>
+</channel>
+<channel id="283972">
+  <display-name lang="es">24 Horas Tvn</display-name>
+</channel>
+<channel id="284052">
+  <display-name lang="es">Cnn Chile Hd</display-name>
+</channel>
+<channel id="284011">
+  <display-name lang="es">La Red Hd</display-name>
+</channel>
+<channel id="283984">
+  <display-name lang="es">Tv+ Hd</display-name>
+</channel>
+<channel id="284042">
+  <display-name lang="es">Tvn Hd</display-name>
+</channel>
+<channel id="283980">
+  <display-name lang="es">Mega Hd</display-name>
+</channel>
+<channel id="283958">
+  <display-name lang="es">Chv Hd</display-name>
+</channel>
+<channel id="283967">
+  <display-name lang="es">Canal 13 Hd</display-name>
+</channel>
+<channel id="1655397">
+  <display-name lang="es">Rec Tv</display-name>
+</channel>
+<channel id="283950">
+  <display-name lang="es">13c</display-name>
+</channel>
+<channel id="284012">
+  <display-name lang="es">Id Hd</display-name>
+</channel>
+<channel id="283956">
+  <display-name lang="es">Warner Channel Hd</display-name>
+</channel>
+<channel id="284026">
+  <display-name lang="es">Fox Hd</display-name>
+</channel>
+<channel id="284032">
+  <display-name lang="es">Sony Hd</display-name>
+</channel>
+<channel id="283960">
+  <display-name lang="es">Axn Hd</display-name>
+</channel>
+<channel id="284036">
+  <display-name lang="es">Universal Hd</display-name>
+</channel>
+<channel id="284024">
+  <display-name lang="es">Tnt Series Hd</display-name>
+</channel>
+<channel id="283969">
+  <display-name lang="es">Fx Hd</display-name>
+</channel>
+<channel id="284015">
+  <display-name lang="es">Trutv Hd</display-name>
+</channel>
+<channel id="284027">
+  <display-name lang="es">A&E Hd</display-name>
+</channel>
+<channel id="283981">
+  <display-name lang="es">Tbs Very Funny Hd</display-name>
+</channel>
+<channel id="283962">
+  <display-name lang="es">Studio Universal Hd</display-name>
+</channel>
+<channel id="534004">
+  <display-name lang="es">Hbo Chile Hd</display-name>
+</channel>
+<channel id="284019">
+  <display-name lang="es">Cinecanal Hd</display-name>
+</channel>
+<channel id="284023">
+  <display-name lang="es">Tnt Hd</display-name>
+</channel>
+<channel id="283975">
+  <display-name lang="es">Tcm</display-name>
+</channel>
+<channel id="283953">
+  <display-name lang="es">Amc Hd</display-name>
+</channel>
+<channel id="283974">
+  <display-name lang="es">Cinemax Hd</display-name>
+</channel>
+<channel id="283988">
+  <display-name lang="es">Fx Movies Hd</display-name>
+</channel>
+<channel id="283987">
+  <display-name lang="es">I Sat</display-name>
+</channel>
+<channel id="284016">
+  <display-name lang="es">Space Hd</display-name>
+</channel>
+<channel id="1655398">
+  <display-name lang="es">Syfy (Latin America)</display-name>
+</channel>
+<channel id="283964">
+  <display-name lang="es">Golden</display-name>
+</channel>
+<channel id="1655399">
+  <display-name lang="es">Canal Dhe Sd</display-name>
+</channel>
+<channel id="1655400">
+  <display-name lang="es">Telemundo (Latin America / Non-Us)</display-name>
+</channel>
+<channel id="284009">
+  <display-name lang="es">Tl Novelas</display-name>
+</channel>
+<channel id="283993">
+  <display-name lang="es">Las Estrellas</display-name>
+</channel>
+<channel id="2490412">
+  <display-name lang="es">Tve America</display-name>
+</channel>
+<channel id="1655401">
+  <display-name lang="es">Rai Italia Americas</display-name>
+</channel>
+<channel id="1655402">
+  <display-name lang="es">Deutsche Welle Tv Español</display-name>
+</channel>
+<channel id="1655403">
+  <display-name lang="es">Nhk World Premium (Japanese)</display-name>
+</channel>
+<channel id="284046">
+  <display-name lang="es">Discovery H&H Hd</display-name>
+</channel>
+<channel id="284043">
+  <display-name lang="es">Travel And Living Channel</display-name>
+</channel>
+<channel id="284001">
+  <display-name lang="es">World Hd</display-name>
+</channel>
+<channel id="284050">
+  <display-name lang="es">E! Entertainment Hd</display-name>
+</channel>
+<channel id="412715">
+  <display-name lang="es">Fox Life Hd</display-name>
+</channel>
+<channel id="2586109">
+  <display-name lang="es">Hgla Hd Spa</display-name>
+</channel>
+<channel id="283982">
+  <display-name lang="es">El Gourmet Hd</display-name>
+</channel>
+<channel id="284034">
+  <display-name lang="es">Lifetime Hd</display-name>
+</channel>
+<channel id="1655404">
+  <display-name lang="es">Food Network (Latin America)</display-name>
+</channel>
+<channel id="1697328">
+  <display-name lang="es">Sundance Channel</display-name>
+</channel>
+<channel id="284031">
+  <display-name lang="es">Htv</display-name>
+</channel>
+<channel id="283996">
+  <display-name lang="es">Discovery Turbo</display-name>
+</channel>
+<channel id="283968">
+  <display-name lang="es">Fox Sports Chile</display-name>
+</channel>
+<channel id="283949">
+  <display-name lang="es">Fox Sports 3</display-name>
+</channel>
+<channel id="283978">
+  <display-name lang="es">Espn Hd</display-name>
+</channel>
+<channel id="283957">
+  <display-name lang="es">Espn Extra Hd</display-name>
+</channel>
+<channel id="284058">
+  <display-name lang="es">Espn 2 Hd</display-name>
+</channel>
+<channel id="284007">
+  <display-name lang="es">Espn3 Hd</display-name>
+</channel>
+<channel id="284055">
+  <display-name lang="es">Cdf Basico</display-name>
+</channel>
+<channel id="284020">
+  <display-name lang="es">Teletrak Hd</display-name>
+</channel>
+<channel id="284060">
+  <display-name lang="es">Fox Sports 2 Hd</display-name>
+</channel>
+<channel id="284045">
+  <display-name lang="es">Fox Sports 3 Hd</display-name>
+</channel>
+<channel id="284044">
+  <display-name lang="es">Fox Sports 1 Hd</display-name>
+</channel>
+<channel id="283948">
+  <display-name lang="es">Cdf Premium</display-name>
+</channel>
+<channel id="283992">
+  <display-name lang="es">Cdf Premium Hd</display-name>
+</channel>
+<channel id="283970">
+  <display-name lang="es">Fox Series Hd</display-name>
+</channel>
+<channel id="283952">
+  <display-name lang="es">Fox Cinema Hd</display-name>
+</channel>
+<channel id="283986">
+  <display-name lang="es">Fox Movies Hd</display-name>
+</channel>
+<channel id="283994">
+  <display-name lang="es">Fox Action Hd</display-name>
+</channel>
+<channel id="283998">
+  <display-name lang="es">Fox Comedy Hd</display-name>
+</channel>
+<channel id="284062">
+  <display-name lang="es">Fox Classics</display-name>
+</channel>
+<channel id="283951">
+  <display-name lang="es">Fox Family Hd</display-name>
+</channel>
+<channel id="284064">
+  <display-name lang="es">Hbo Hd</display-name>
+</channel>
+<channel id="284018">
+  <display-name lang="es">Hbo2 Hd</display-name>
+</channel>
+<channel id="284025">
+  <display-name lang="es">Hbo Plus E Hd</display-name>
+</channel>
+<channel id="284021">
+  <display-name lang="es">Hbo Family Hd</display-name>
+</channel>
+<channel id="284014">
+  <display-name lang="es">Hbo Signature Hd</display-name>
+</channel>
+<channel id="284035">
+  <display-name lang="es">Hbo Mundi </display-name>
+</channel>
+<channel id="284030">
+  <display-name lang="es">Hbo Extreme</display-name>
+</channel>
+<channel id="284063">
+  <display-name lang="es">Hbo Pop</display-name>
+</channel>
+<channel id="284061">
+  <display-name lang="es">Playboy Hd</display-name>
+</channel>
+<channel id="284022">
+  <display-name lang="es">Venus</display-name>
+</channel>
+<channel id="283959">
+  <display-name lang="es">Natgeo</display-name>
+</channel>
+<channel id="283973">
+  <display-name lang="es">Id - Investigation Discovery</display-name>
+</channel>
+<channel id="284017">
+  <display-name lang="es">Fox</display-name>
+</channel>
+<channel id="284000">
+  <display-name lang="es">Fx</display-name>
+</channel>
+<channel id="283977">
+  <display-name lang="es">Cinecanal</display-name>
+</channel>
+<channel id="284054">
+  <display-name lang="es">Fx Movies</display-name>
+</channel>
+<channel id="283963">
+  <display-name lang="es">Fox Life</display-name>
+</channel>
+<channel id="534006">
+  <display-name lang="es">Nat Geo Kids</display-name>
+</channel>
+</tv>
